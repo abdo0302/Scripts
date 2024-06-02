@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    background-color: rgb(2, 13, 61);
+    box-shadow: 3px 3px 18px rgb(3, 1, 20);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all ;
+}
+.contenar_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
